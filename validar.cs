@@ -11,13 +11,12 @@ namespace ValidadorCPF
     {
         //atributos
         public
-            string cpf, cnpj;
+            string cpf;
 
         //construtor
-        public validar(string c, string cj)
+        public validar(string c)
         {
             cpf = c;
-            cnpj = cj;
         }
 
         //getter e setter
